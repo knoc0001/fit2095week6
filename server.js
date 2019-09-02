@@ -21,8 +21,8 @@ app.use(morgan('common'));
 app.listen(8080);
 
 const MongoClient = mongodb.MongoClient;
-const url = "mongodb://192.168.1.107:27017/";
-
+//const url = "mongodb://192.168.1.107:27017/";
+const url = "mongodb://0.0.0.0:27017/";
 
 var db;
 var idDB = [];
